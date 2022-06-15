@@ -2,14 +2,14 @@ import React from "react";
 
 export class Card extends React.Component{
 
-    render(){
+    render() {
 
         return(
             <div>
-                card
+                {this.props.user.name} - {this.props.user.age}
             </div>
 
-        )
+        );
     }
 
 }
